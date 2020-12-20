@@ -1,0 +1,29 @@
+{
+  "name": "@hyprtxt/poker",
+  "version": "1.0.0",
+  "description": "Poker Scoring",
+  "main": "dist/poker.js",
+  "scripts": {
+    "start": "./node_modules/@babel/cli/bin/babel.js src --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/@babel/cli/bin/babel.js src --out-dir dist"
+  },
+  "author": "Taylor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:Hyprtxt/modules.git",
+    "directory": "poker"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  },
+  "dependencies": {
+    "@hyprtxt/deck": "^2.0.0"
+  }
+}
