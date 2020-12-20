@@ -1,8 +1,8 @@
 {
   "name": "@hyprtxt/deck",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "JavaScript Deck of Cards",
-  "main": "main/deck.js",
+  "main": "dist/deck.js",
   "scripts": {
     "start": "npx babel src --watch --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
