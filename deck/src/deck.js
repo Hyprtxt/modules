@@ -21,7 +21,25 @@ const suits = ["♦", "♣", "♥", "♠"],
     }
     return array;
   },
-  getNewCards = () => shuffle(setupCards([]));
+  getNewCards = () => shuffle(setupCards([])),
+  isCard = (maybe_card) => {
+    // console.log(typeof maybe_card, maybe_card.length)
+    if (typeof maybe_card !== "string") {
+      return false;
+    }
+    if (maybe_card.length !== 2) {
+      return false;
+    }
+    const [suit, value] = maybe_card.split("");
+    // console.log(suit, value, Deck.suits.indexOf(suit), Deck.values.indexOf(value))
+    if (Deck.suits.indexOf(suit) === -1) {
+      return false;
+    }
+    if (Deck.values.indexOf(value) === -1) {
+      return false;
+    }
+    return true;
+  };
 
 export default {
   suits,
@@ -29,4 +47,5 @@ export default {
   setupCards,
   shuffle,
   getNewCards,
+  isCard,
 };
