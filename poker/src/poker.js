@@ -28,7 +28,7 @@ const VALUES_INDEX = Deck.values,
     VALUES_INDEX.slice(8, 13),
   ],
   ROYAL_STRAIGHT = [VALUES_INDEX[0], ...VALUES_INDEX.slice(9, 13)],
-  Score = (hand_cards = [], bet = 5) => {
+  score = (hand_cards = [], bet = 5) => {
     const { hand_suits, hand_values } = getHandSuitsValuesSorted(hand_cards);
     let royal, straight, flush, pair1, pair2, triple, quad, jacksorbetter;
     // bet = bet || 5
@@ -130,7 +130,7 @@ const VALUES_INDEX = Deck.values,
 
 // console.log(VALUES_INDEX, STRAIGHTS_LIST, ROYAL_STRAIGHT)
 module.exports = {
-  Score,
+  score,
   VALUES_INDEX,
   SUITS_INDEX,
   STRAIGHTS_LIST,
