@@ -1,12 +1,12 @@
 {
   "name": "@hyprtxt/poker",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Poker Scoring",
   "main": "dist/poker.js",
   "scripts": {
-    "start": "./node_modules/@babel/cli/bin/babel.js src --watch --out-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/@babel/cli/bin/babel.js src --out-dir dist"
+    "start": "babel src --watch --out-dir dist",
+    "test": "jest",
+    "build": "babel src --out-dir dist"
   },
   "author": "Taylor",
   "license": "MIT",
@@ -21,9 +21,11 @@
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11"
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
   },
   "dependencies": {
-    "@hyprtxt/deck": "^2.0.1"
+    "@hyprtxt/deck": "^2.0.2"
   }
 }
