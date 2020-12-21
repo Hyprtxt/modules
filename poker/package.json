@@ -1,6 +1,6 @@
 {
   "name": "@hyprtxt/poker",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Poker Scoring",
   "main": "dist/poker.js",
   "scripts": {
@@ -27,5 +27,10 @@
   },
   "dependencies": {
     "@hyprtxt/deck": "^2.0.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist"
+    ]
   }
 }
