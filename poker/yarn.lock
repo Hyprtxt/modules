@@ -831,10 +831,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@hyprtxt/deck@^2.0.0":
-  version "2.0.0"
-  resolved "https://npm.pkg.github.com/download/@hyprtxt/deck/2.0.0/848dd2da244561f015b44e0d6b411bb20dacaaf5023f4c86eea7f79c3139010f#db479eb739d2f99267189c74385b4be1a9eace55"
-  integrity sha512-6zjsH+jwM+4aq/0EUO3e8fq2O9UmpgkJ0oH9yjC0GLyVRAeJ6t7YFFrNEXkz6ErAeLHJZlZBWvCxIGDkie2N5g==
+"@hyprtxt/deck@^2.0.1":
+  version "2.0.1"
+  resolved "https://npm.pkg.github.com/download/@hyprtxt/deck/2.0.1/e515baf1cbbfcf2cb9103b9e780fd754bf044698b5f143d9de771aceab63f883#5f70dc2ba3d12c79ed3e6a9c488a758c767ecc0b"
+  integrity sha512-nHyIEJdlZzMsErR9QNwpu8bhk0PzEt6pcjse2FpZHRjKUkKIJtv7vH365pqK/Fgkcfdsj3k9Sp+WdBvUEnkP9A==
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents":
   version "2.1.8-no-fsevents"
