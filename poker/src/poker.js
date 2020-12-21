@@ -1,4 +1,4 @@
-const Deck = require("@hyprtxt/deck").default;
+import Deck from "@hyprtxt/deck";
 
 const getHandSuitsValuesSorted = (input_cards) => {
   let hand_values;
@@ -129,7 +129,7 @@ const VALUES_INDEX = Deck.values,
   };
 
 // console.log(VALUES_INDEX, STRAIGHTS_LIST, ROYAL_STRAIGHT)
-module.exports = {
+export default {
   score,
   VALUES_INDEX,
   SUITS_INDEX,
