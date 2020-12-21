@@ -1,4 +1,5 @@
 .DS_Store
 node_modules
 dist
-.npmrc
+package-lock.json
+yarn-error.log
